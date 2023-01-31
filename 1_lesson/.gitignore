@@ -9,8 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
-*..Python/
-*..HomeWork/
+.Python/
+.HomeWork/
 
 
 
