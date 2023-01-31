@@ -9,7 +9,9 @@
 *.user
 *.userosscache
 *.sln.docstates
-.Python
+*..Python
+*..HomeWork
+
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
