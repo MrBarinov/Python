@@ -14,8 +14,10 @@ pet = 0
 ser = 0
 kat = 0
 
-x = S//6
-pet = ser = x 
-kat = 2 * (pet+ser)
-
-print(pet, kat, ser)
+if S % 6:
+    print("Задача не может быть решена, так как число не делится без остатка! ")
+else:
+    x = int(S / 6)
+    pet = ser = x
+    kat = 2 * (pet + ser)
+    print(pet, kat, ser)
