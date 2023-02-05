@@ -8,3 +8,16 @@
 # Пользователь вводит одно число N – количество арбузов.
 # Вторая строка содержит N чисел, записанных на новой
 # строчке каждое. Здесь каждое число – это масса соответствующего арбуза
+
+total = int(input())
+max = min = int(input('Вес арбуза: '))
+
+for _ in range(total - 1):
+    count = int(input())
+    if count > max:
+        max = count
+    if count < min:
+        min = count
+print(min, max)
+
+# Теорема Виетта https://www.webmath.ru/poleznoe/formules_19_5.php
