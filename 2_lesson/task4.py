@@ -20,4 +20,3 @@ for _ in range(total - 1):
         min = count
 print(min, max)
 
-# Теорема Виетта https://www.webmath.ru/poleznoe/formules_19_5.php
