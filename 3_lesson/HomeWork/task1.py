@@ -12,7 +12,7 @@
 
 import random
 n = int(input("Введите ваше число: "))
-a = [i for i in random.sample(range(10), n)]
+a = [i for i in random.sample(range(100), n)]
 x = int(input("Введите число которое встречается: "))
 print(f"В массиве {a} ваше число {x} встречается {a.count(x)} раз" )
 
