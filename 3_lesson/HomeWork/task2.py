@@ -11,10 +11,13 @@
 
 import random
 n = int(input("Введите колличество элементов массива: "))
-a = [i for i in random.sample(range(1, 10), n)]
+a = [i for i in random.sample(range(30), n)]
 x = int(input("Введите число: "))
-a1 = sorted(a)
-for i in range(len(a1)):
-    if a1[i] > x:
-        print(a1, a1[i-1])
+a1 = 0
+a.sort()
+print(a)
+while a:
+    if a[0] > x:
         break
+    a1 = a.pop(0)
+print(f"Ближайшее число к {x} является {a1}")
