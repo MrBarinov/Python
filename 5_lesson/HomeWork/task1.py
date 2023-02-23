@@ -6,4 +6,4 @@ def stepen(a, b):
         return a
     else:
         return a * stepen(a, b - 1)
-print(stepen(int(input("Введите число: ")), int(input("Введите его стекпень: "))))
+print(stepen(int(input("Введите число: ")), int(input("Введите его степень: "))))
