@@ -16,4 +16,4 @@ n = [int(input("Введите число: "))
 m = [int(input("Введите число: "))
      for _ in range(int(input("Введите 2е колличество чисел: ")))]
 print(sorted(n), sorted(m))
-print(sorted(set(n) & set(m)))
+print(*sorted(set(n) & set(m)))
